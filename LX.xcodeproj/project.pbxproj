@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D25429D1ECA25F800FB0FB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D25429C1ECA25F800FB0FB7 /* main.m */; };
+		1D2543031ECA261600FB0FB7 /* LXCodeBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542A41ECA261600FB0FB7 /* LXCodeBlock.m */; };
+		1D2543041ECA261600FB0FB7 /* LXCodeBlockScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542A61ECA261600FB0FB7 /* LXCodeBlockScanner.m */; };
+		1D2543051ECA261600FB0FB7 /* LXCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542A81ECA261600FB0FB7 /* LXCommand.m */; };
+		1D2543061ECA261600FB0FB7 /* LXDataValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542AA1ECA261600FB0FB7 /* LXDataValue.m */; };
+		1D2543081ECA261600FB0FB7 /* LXError.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542AE1ECA261600FB0FB7 /* LXError.m */; };
+		1D2543091ECA261600FB0FB7 /* LXFnPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542AF1ECA261600FB0FB7 /* LXFnPrint.m */; };
+		1D25430A1ECA261600FB0FB7 /* LXFormulaScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542B21ECA261600FB0FB7 /* LXFormulaScanner.m */; };
+		1D25430B1ECA261600FB0FB7 /* LXFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542B41ECA261600FB0FB7 /* LXFunction.m */; };
+		1D25430C1ECA261600FB0FB7 /* LXFunctionExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542B51ECA261600FB0FB7 /* LXFunctionExtensions.m */; };
+		1D25430D1ECA261600FB0FB7 /* LXNumberScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542B81ECA261600FB0FB7 /* LXNumberScanner.m */; };
+		1D25430E1ECA261600FB0FB7 /* LXNumberValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542BA1ECA261600FB0FB7 /* LXNumberValue.m */; };
+		1D25430F1ECA261600FB0FB7 /* LXOpAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542BB1ECA261600FB0FB7 /* LXOpAddition.m */; };
+		1D2543101ECA261600FB0FB7 /* LXOpAdditionAssign.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542BC1ECA261600FB0FB7 /* LXOpAdditionAssign.m */; };
+		1D2543111ECA261600FB0FB7 /* LXOpAnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542BD1ECA261600FB0FB7 /* LXOpAnd.m */; };
+		1D2543121ECA261600FB0FB7 /* LXOpArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542BF1ECA261600FB0FB7 /* LXOpArguments.m */; };
+		1D2543131ECA261600FB0FB7 /* LXOpAssign.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542C01ECA261600FB0FB7 /* LXOpAssign.m */; };
+		1D2543141ECA261600FB0FB7 /* LXOpBitwiseAnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542C11ECA261600FB0FB7 /* LXOpBitwiseAnd.m */; };
+		1D2543151ECA261600FB0FB7 /* LXOpBitwiseNot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542C21ECA261600FB0FB7 /* LXOpBitwiseNot.m */; };
+		1D2543161ECA261600FB0FB7 /* LXOpBitwiseOr.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542C31ECA261600FB0FB7 /* LXOpBitwiseOr.m */; };
+		1D2543171ECA261600FB0FB7 /* LXOpBitwiseXor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542C41ECA261600FB0FB7 /* LXOpBitwiseXor.m */; };
+		1D2543181ECA261600FB0FB7 /* LXOpConditional.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542C51ECA261600FB0FB7 /* LXOpConditional.m */; };
+		1D2543191ECA261600FB0FB7 /* LXOpDivision.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542C61ECA261600FB0FB7 /* LXOpDivision.m */; };
+		1D25431A1ECA261600FB0FB7 /* LXOpDivisionAssign.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542C71ECA261600FB0FB7 /* LXOpDivisionAssign.m */; };
+		1D25431B1ECA261600FB0FB7 /* LXOpDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542C81ECA261600FB0FB7 /* LXOpDot.m */; };
+		1D25431C1ECA261600FB0FB7 /* LXOpEither.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542C91ECA261600FB0FB7 /* LXOpEither.m */; };
+		1D25431D1ECA261600FB0FB7 /* LXOpEqual.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542CA1ECA261600FB0FB7 /* LXOpEqual.m */; };
+		1D25431E1ECA261600FB0FB7 /* LXOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542CC1ECA261600FB0FB7 /* LXOperator.m */; };
+		1D25431F1ECA261600FB0FB7 /* LXOperatorScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542CE1ECA261600FB0FB7 /* LXOperatorScanner.m */; };
+		1D2543201ECA261600FB0FB7 /* LXOpExponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542CF1ECA261600FB0FB7 /* LXOpExponent.m */; };
+		1D2543211ECA261600FB0FB7 /* LXOpExponentAssign.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542D01ECA261600FB0FB7 /* LXOpExponentAssign.m */; };
+		1D2543221ECA261600FB0FB7 /* LXOpGreaterThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542D11ECA261600FB0FB7 /* LXOpGreaterThan.m */; };
+		1D2543231ECA261600FB0FB7 /* LXOpGreaterThanEqual.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542D21ECA261600FB0FB7 /* LXOpGreaterThanEqual.m */; };
+		1D2543241ECA261600FB0FB7 /* LXOpIdentical.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542D31ECA261600FB0FB7 /* LXOpIdentical.m */; };
+		1D2543251ECA261600FB0FB7 /* LXOpLessThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542D41ECA261600FB0FB7 /* LXOpLessThan.m */; };
+		1D2543261ECA261600FB0FB7 /* LXOpLessThanEqual.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542D51ECA261600FB0FB7 /* LXOpLessThanEqual.m */; };
+		1D2543271ECA261600FB0FB7 /* LXOpModulus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542D61ECA261600FB0FB7 /* LXOpModulus.m */; };
+		1D2543281ECA261600FB0FB7 /* LXOpModulusAssign.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542D71ECA261600FB0FB7 /* LXOpModulusAssign.m */; };
+		1D2543291ECA261600FB0FB7 /* LXOpMultiplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542D81ECA261600FB0FB7 /* LXOpMultiplication.m */; };
+		1D25432A1ECA261600FB0FB7 /* LXOpMultiplicationAssign.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542D91ECA261600FB0FB7 /* LXOpMultiplicationAssign.m */; };
+		1D25432B1ECA261600FB0FB7 /* LXOpNegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542DA1ECA261600FB0FB7 /* LXOpNegate.m */; };
+		1D25432C1ECA261600FB0FB7 /* LXOpNot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542DB1ECA261600FB0FB7 /* LXOpNot.m */; };
+		1D25432D1ECA261600FB0FB7 /* LXOpNotEqual.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542DC1ECA261600FB0FB7 /* LXOpNotEqual.m */; };
+		1D25432E1ECA261600FB0FB7 /* LXOpNotIdentical.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542DD1ECA261600FB0FB7 /* LXOpNotIdentical.m */; };
+		1D25432F1ECA261600FB0FB7 /* LXOpOr.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542DE1ECA261600FB0FB7 /* LXOpOr.m */; };
+		1D2543311ECA261600FB0FB7 /* LXOpPostDecrement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542E01ECA261600FB0FB7 /* LXOpPostDecrement.m */; };
+		1D2543321ECA261600FB0FB7 /* LXOpPostIncrement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542E11ECA261600FB0FB7 /* LXOpPostIncrement.m */; };
+		1D2543331ECA261600FB0FB7 /* LXOpPreDecrement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542E21ECA261600FB0FB7 /* LXOpPreDecrement.m */; };
+		1D2543341ECA261600FB0FB7 /* LXOpPreIncrement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542E31ECA261600FB0FB7 /* LXOpPreIncrement.m */; };
+		1D2543351ECA261600FB0FB7 /* LXOpRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542E41ECA261600FB0FB7 /* LXOpRange.m */; };
+		1D2543361ECA261600FB0FB7 /* LXOpSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542E61ECA261600FB0FB7 /* LXOpSeries.m */; };
+		1D2543371ECA261600FB0FB7 /* LXOpShiftLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542E71ECA261600FB0FB7 /* LXOpShiftLeft.m */; };
+		1D2543381ECA261600FB0FB7 /* LXOpShiftRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542E81ECA261600FB0FB7 /* LXOpShiftRight.m */; };
+		1D2543391ECA261600FB0FB7 /* LXOpSubtraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542E91ECA261600FB0FB7 /* LXOpSubtraction.m */; };
+		1D25433A1ECA261600FB0FB7 /* LXOpSubtractionAssign.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542EA1ECA261600FB0FB7 /* LXOpSubtractionAssign.m */; };
+		1D25433B1ECA261600FB0FB7 /* LXOpVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542EB1ECA261600FB0FB7 /* LXOpVariable.m */; };
+		1D25433C1ECA261600FB0FB7 /* LXPairValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542ED1ECA261600FB0FB7 /* LXPairValue.m */; };
+		1D25433D1ECA261600FB0FB7 /* LXParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542EF1ECA261600FB0FB7 /* LXParentheses.m */; };
+		1D25433E1ECA261600FB0FB7 /* LXPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542F11ECA261600FB0FB7 /* LXPlaceholder.m */; };
+		1D25433F1ECA261600FB0FB7 /* LXRuntimeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542F31ECA261600FB0FB7 /* LXRuntimeInfo.m */; };
+		1D2543401ECA261600FB0FB7 /* LXScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542F51ECA261600FB0FB7 /* LXScanner.m */; };
+		1D2543411ECA261600FB0FB7 /* LXStringScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542F71ECA261600FB0FB7 /* LXStringScanner.m */; };
+		1D2543421ECA261600FB0FB7 /* LXStringValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542F91ECA261600FB0FB7 /* LXStringValue.m */; };
+		1D2543431ECA261600FB0FB7 /* LXValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542FB1ECA261600FB0FB7 /* LXValue.m */; };
+		1D2543441ECA261600FB0FB7 /* LXVariable_Initialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542FC1ECA261600FB0FB7 /* LXVariable_Initialize.m */; };
+		1D2543451ECA261600FB0FB7 /* LXVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2542FE1ECA261600FB0FB7 /* LXVariable.m */; };
+		1D2543461ECA261600FB0FB7 /* LXVariableNameScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2543001ECA261600FB0FB7 /* LXVariableNameScanner.m */; };
+		1D2543471ECA261600FB0FB7 /* LXVectorValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2543021ECA261600FB0FB7 /* LXVectorValue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1D2542971ECA25F800FB0FB7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D2542991ECA25F800FB0FB7 /* LX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LX; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D25429C1ECA25F800FB0FB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D2542A31ECA261600FB0FB7 /* LXCodeBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXCodeBlock.h; sourceTree = "<group>"; };
+		1D2542A41ECA261600FB0FB7 /* LXCodeBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXCodeBlock.m; sourceTree = "<group>"; };
+		1D2542A51ECA261600FB0FB7 /* LXCodeBlockScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXCodeBlockScanner.h; sourceTree = "<group>"; };
+		1D2542A61ECA261600FB0FB7 /* LXCodeBlockScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXCodeBlockScanner.m; sourceTree = "<group>"; };
+		1D2542A71ECA261600FB0FB7 /* LXCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXCommand.h; sourceTree = "<group>"; };
+		1D2542A81ECA261600FB0FB7 /* LXCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXCommand.m; sourceTree = "<group>"; };
+		1D2542A91ECA261600FB0FB7 /* LXDataValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDataValue.h; sourceTree = "<group>"; };
+		1D2542AA1ECA261600FB0FB7 /* LXDataValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDataValue.m; sourceTree = "<group>"; };
+		1D2542AD1ECA261600FB0FB7 /* LXError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXError.h; sourceTree = "<group>"; };
+		1D2542AE1ECA261600FB0FB7 /* LXError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXError.m; sourceTree = "<group>"; };
+		1D2542AF1ECA261600FB0FB7 /* LXFnPrint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFnPrint.m; sourceTree = "<group>"; };
+		1D2542B01ECA261600FB0FB7 /* LXFns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFns.h; sourceTree = "<group>"; };
+		1D2542B11ECA261600FB0FB7 /* LXFormulaScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFormulaScanner.h; sourceTree = "<group>"; };
+		1D2542B21ECA261600FB0FB7 /* LXFormulaScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFormulaScanner.m; sourceTree = "<group>"; };
+		1D2542B31ECA261600FB0FB7 /* LXFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFunction.h; sourceTree = "<group>"; };
+		1D2542B41ECA261600FB0FB7 /* LXFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFunction.m; sourceTree = "<group>"; };
+		1D2542B51ECA261600FB0FB7 /* LXFunctionExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFunctionExtensions.m; sourceTree = "<group>"; };
+		1D2542B61ECA261600FB0FB7 /* LXHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHeader.h; sourceTree = "<group>"; };
+		1D2542B71ECA261600FB0FB7 /* LXNumberScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXNumberScanner.h; sourceTree = "<group>"; };
+		1D2542B81ECA261600FB0FB7 /* LXNumberScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXNumberScanner.m; sourceTree = "<group>"; };
+		1D2542B91ECA261600FB0FB7 /* LXNumberValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXNumberValue.h; sourceTree = "<group>"; };
+		1D2542BA1ECA261600FB0FB7 /* LXNumberValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXNumberValue.m; sourceTree = "<group>"; };
+		1D2542BB1ECA261600FB0FB7 /* LXOpAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpAddition.m; sourceTree = "<group>"; };
+		1D2542BC1ECA261600FB0FB7 /* LXOpAdditionAssign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpAdditionAssign.m; sourceTree = "<group>"; };
+		1D2542BD1ECA261600FB0FB7 /* LXOpAnd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpAnd.m; sourceTree = "<group>"; };
+		1D2542BE1ECA261600FB0FB7 /* LXOpArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXOpArguments.h; sourceTree = "<group>"; };
+		1D2542BF1ECA261600FB0FB7 /* LXOpArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpArguments.m; sourceTree = "<group>"; };
+		1D2542C01ECA261600FB0FB7 /* LXOpAssign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpAssign.m; sourceTree = "<group>"; };
+		1D2542C11ECA261600FB0FB7 /* LXOpBitwiseAnd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpBitwiseAnd.m; sourceTree = "<group>"; };
+		1D2542C21ECA261600FB0FB7 /* LXOpBitwiseNot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpBitwiseNot.m; sourceTree = "<group>"; };
+		1D2542C31ECA261600FB0FB7 /* LXOpBitwiseOr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpBitwiseOr.m; sourceTree = "<group>"; };
+		1D2542C41ECA261600FB0FB7 /* LXOpBitwiseXor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpBitwiseXor.m; sourceTree = "<group>"; };
+		1D2542C51ECA261600FB0FB7 /* LXOpConditional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpConditional.m; sourceTree = "<group>"; };
+		1D2542C61ECA261600FB0FB7 /* LXOpDivision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpDivision.m; sourceTree = "<group>"; };
+		1D2542C71ECA261600FB0FB7 /* LXOpDivisionAssign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpDivisionAssign.m; sourceTree = "<group>"; };
+		1D2542C81ECA261600FB0FB7 /* LXOpDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpDot.m; sourceTree = "<group>"; };
+		1D2542C91ECA261600FB0FB7 /* LXOpEither.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpEither.m; sourceTree = "<group>"; };
+		1D2542CA1ECA261600FB0FB7 /* LXOpEqual.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpEqual.m; sourceTree = "<group>"; };
+		1D2542CB1ECA261600FB0FB7 /* LXOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXOperator.h; sourceTree = "<group>"; };
+		1D2542CC1ECA261600FB0FB7 /* LXOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOperator.m; sourceTree = "<group>"; };
+		1D2542CD1ECA261600FB0FB7 /* LXOperatorScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXOperatorScanner.h; sourceTree = "<group>"; };
+		1D2542CE1ECA261600FB0FB7 /* LXOperatorScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOperatorScanner.m; sourceTree = "<group>"; };
+		1D2542CF1ECA261600FB0FB7 /* LXOpExponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpExponent.m; sourceTree = "<group>"; };
+		1D2542D01ECA261600FB0FB7 /* LXOpExponentAssign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpExponentAssign.m; sourceTree = "<group>"; };
+		1D2542D11ECA261600FB0FB7 /* LXOpGreaterThan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpGreaterThan.m; sourceTree = "<group>"; };
+		1D2542D21ECA261600FB0FB7 /* LXOpGreaterThanEqual.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpGreaterThanEqual.m; sourceTree = "<group>"; };
+		1D2542D31ECA261600FB0FB7 /* LXOpIdentical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpIdentical.m; sourceTree = "<group>"; };
+		1D2542D41ECA261600FB0FB7 /* LXOpLessThan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpLessThan.m; sourceTree = "<group>"; };
+		1D2542D51ECA261600FB0FB7 /* LXOpLessThanEqual.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpLessThanEqual.m; sourceTree = "<group>"; };
+		1D2542D61ECA261600FB0FB7 /* LXOpModulus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpModulus.m; sourceTree = "<group>"; };
+		1D2542D71ECA261600FB0FB7 /* LXOpModulusAssign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpModulusAssign.m; sourceTree = "<group>"; };
+		1D2542D81ECA261600FB0FB7 /* LXOpMultiplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpMultiplication.m; sourceTree = "<group>"; };
+		1D2542D91ECA261600FB0FB7 /* LXOpMultiplicationAssign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpMultiplicationAssign.m; sourceTree = "<group>"; };
+		1D2542DA1ECA261600FB0FB7 /* LXOpNegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpNegate.m; sourceTree = "<group>"; };
+		1D2542DB1ECA261600FB0FB7 /* LXOpNot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpNot.m; sourceTree = "<group>"; };
+		1D2542DC1ECA261600FB0FB7 /* LXOpNotEqual.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpNotEqual.m; sourceTree = "<group>"; };
+		1D2542DD1ECA261600FB0FB7 /* LXOpNotIdentical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpNotIdentical.m; sourceTree = "<group>"; };
+		1D2542DE1ECA261600FB0FB7 /* LXOpOr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpOr.m; sourceTree = "<group>"; };
+		1D2542E01ECA261600FB0FB7 /* LXOpPostDecrement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpPostDecrement.m; sourceTree = "<group>"; };
+		1D2542E11ECA261600FB0FB7 /* LXOpPostIncrement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpPostIncrement.m; sourceTree = "<group>"; };
+		1D2542E21ECA261600FB0FB7 /* LXOpPreDecrement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpPreDecrement.m; sourceTree = "<group>"; };
+		1D2542E31ECA261600FB0FB7 /* LXOpPreIncrement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpPreIncrement.m; sourceTree = "<group>"; };
+		1D2542E41ECA261600FB0FB7 /* LXOpRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpRange.m; sourceTree = "<group>"; };
+		1D2542E51ECA261600FB0FB7 /* LXOps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXOps.h; sourceTree = "<group>"; };
+		1D2542E61ECA261600FB0FB7 /* LXOpSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpSeries.m; sourceTree = "<group>"; };
+		1D2542E71ECA261600FB0FB7 /* LXOpShiftLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpShiftLeft.m; sourceTree = "<group>"; };
+		1D2542E81ECA261600FB0FB7 /* LXOpShiftRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpShiftRight.m; sourceTree = "<group>"; };
+		1D2542E91ECA261600FB0FB7 /* LXOpSubtraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpSubtraction.m; sourceTree = "<group>"; };
+		1D2542EA1ECA261600FB0FB7 /* LXOpSubtractionAssign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpSubtractionAssign.m; sourceTree = "<group>"; };
+		1D2542EB1ECA261600FB0FB7 /* LXOpVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXOpVariable.m; sourceTree = "<group>"; };
+		1D2542EC1ECA261600FB0FB7 /* LXPairValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXPairValue.h; sourceTree = "<group>"; };
+		1D2542ED1ECA261600FB0FB7 /* LXPairValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXPairValue.m; sourceTree = "<group>"; };
+		1D2542EE1ECA261600FB0FB7 /* LXParentheses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXParentheses.h; sourceTree = "<group>"; };
+		1D2542EF1ECA261600FB0FB7 /* LXParentheses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXParentheses.m; sourceTree = "<group>"; };
+		1D2542F01ECA261600FB0FB7 /* LXPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXPlaceholder.h; sourceTree = "<group>"; };
+		1D2542F11ECA261600FB0FB7 /* LXPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXPlaceholder.m; sourceTree = "<group>"; };
+		1D2542F21ECA261600FB0FB7 /* LXRuntimeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXRuntimeInfo.h; sourceTree = "<group>"; };
+		1D2542F31ECA261600FB0FB7 /* LXRuntimeInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXRuntimeInfo.m; sourceTree = "<group>"; };
+		1D2542F41ECA261600FB0FB7 /* LXScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXScanner.h; sourceTree = "<group>"; };
+		1D2542F51ECA261600FB0FB7 /* LXScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXScanner.m; sourceTree = "<group>"; };
+		1D2542F61ECA261600FB0FB7 /* LXStringScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXStringScanner.h; sourceTree = "<group>"; };
+		1D2542F71ECA261600FB0FB7 /* LXStringScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXStringScanner.m; sourceTree = "<group>"; };
+		1D2542F81ECA261600FB0FB7 /* LXStringValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXStringValue.h; sourceTree = "<group>"; };
+		1D2542F91ECA261600FB0FB7 /* LXStringValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXStringValue.m; sourceTree = "<group>"; };
+		1D2542FA1ECA261600FB0FB7 /* LXValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXValue.h; sourceTree = "<group>"; };
+		1D2542FB1ECA261600FB0FB7 /* LXValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXValue.m; sourceTree = "<group>"; };
+		1D2542FC1ECA261600FB0FB7 /* LXVariable_Initialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXVariable_Initialize.m; sourceTree = "<group>"; };
+		1D2542FD1ECA261600FB0FB7 /* LXVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXVariable.h; sourceTree = "<group>"; };
+		1D2542FE1ECA261600FB0FB7 /* LXVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXVariable.m; sourceTree = "<group>"; };
+		1D2542FF1ECA261600FB0FB7 /* LXVariableNameScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXVariableNameScanner.h; sourceTree = "<group>"; };
+		1D2543001ECA261600FB0FB7 /* LXVariableNameScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXVariableNameScanner.m; sourceTree = "<group>"; };
+		1D2543011ECA261600FB0FB7 /* LXVectorValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXVectorValue.h; sourceTree = "<group>"; };
+		1D2543021ECA261600FB0FB7 /* LXVectorValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXVectorValue.m; sourceTree = "<group>"; };
+		1D2543481ECA2DB100FB0FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D2542961ECA25F800FB0FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D2542901ECA25F800FB0FB7 = {
+			isa = PBXGroup;
+			children = (
+				1D25429B1ECA25F800FB0FB7 /* LX */,
+				1D25429A1ECA25F800FB0FB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D25429A1ECA25F800FB0FB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D2542991ECA25F800FB0FB7 /* LX */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D25429B1ECA25F800FB0FB7 /* LX */ = {
+			isa = PBXGroup;
+			children = (
+				1D2542A31ECA261600FB0FB7 /* LXCodeBlock.h */,
+				1D2542A41ECA261600FB0FB7 /* LXCodeBlock.m */,
+				1D2542A51ECA261600FB0FB7 /* LXCodeBlockScanner.h */,
+				1D2542A61ECA261600FB0FB7 /* LXCodeBlockScanner.m */,
+				1D2542A71ECA261600FB0FB7 /* LXCommand.h */,
+				1D2542A81ECA261600FB0FB7 /* LXCommand.m */,
+				1D2542A91ECA261600FB0FB7 /* LXDataValue.h */,
+				1D2542AA1ECA261600FB0FB7 /* LXDataValue.m */,
+				1D2542AD1ECA261600FB0FB7 /* LXError.h */,
+				1D2542AE1ECA261600FB0FB7 /* LXError.m */,
+				1D2542AF1ECA261600FB0FB7 /* LXFnPrint.m */,
+				1D2542B01ECA261600FB0FB7 /* LXFns.h */,
+				1D2542B11ECA261600FB0FB7 /* LXFormulaScanner.h */,
+				1D2542B21ECA261600FB0FB7 /* LXFormulaScanner.m */,
+				1D2542B31ECA261600FB0FB7 /* LXFunction.h */,
+				1D2542B41ECA261600FB0FB7 /* LXFunction.m */,
+				1D2542B51ECA261600FB0FB7 /* LXFunctionExtensions.m */,
+				1D2542B61ECA261600FB0FB7 /* LXHeader.h */,
+				1D2542B71ECA261600FB0FB7 /* LXNumberScanner.h */,
+				1D2542B81ECA261600FB0FB7 /* LXNumberScanner.m */,
+				1D2542B91ECA261600FB0FB7 /* LXNumberValue.h */,
+				1D2542BA1ECA261600FB0FB7 /* LXNumberValue.m */,
+				1D2542BB1ECA261600FB0FB7 /* LXOpAddition.m */,
+				1D2542BC1ECA261600FB0FB7 /* LXOpAdditionAssign.m */,
+				1D2542BD1ECA261600FB0FB7 /* LXOpAnd.m */,
+				1D2542BE1ECA261600FB0FB7 /* LXOpArguments.h */,
+				1D2542BF1ECA261600FB0FB7 /* LXOpArguments.m */,
+				1D2542C01ECA261600FB0FB7 /* LXOpAssign.m */,
+				1D2542C11ECA261600FB0FB7 /* LXOpBitwiseAnd.m */,
+				1D2542C21ECA261600FB0FB7 /* LXOpBitwiseNot.m */,
+				1D2542C31ECA261600FB0FB7 /* LXOpBitwiseOr.m */,
+				1D2542C41ECA261600FB0FB7 /* LXOpBitwiseXor.m */,
+				1D2542C51ECA261600FB0FB7 /* LXOpConditional.m */,
+				1D2542C61ECA261600FB0FB7 /* LXOpDivision.m */,
+				1D2542C71ECA261600FB0FB7 /* LXOpDivisionAssign.m */,
+				1D2542C81ECA261600FB0FB7 /* LXOpDot.m */,
+				1D2542C91ECA261600FB0FB7 /* LXOpEither.m */,
+				1D2542CA1ECA261600FB0FB7 /* LXOpEqual.m */,
+				1D2542CB1ECA261600FB0FB7 /* LXOperator.h */,
+				1D2542CC1ECA261600FB0FB7 /* LXOperator.m */,
+				1D2542CD1ECA261600FB0FB7 /* LXOperatorScanner.h */,
+				1D2542CE1ECA261600FB0FB7 /* LXOperatorScanner.m */,
+				1D2542CF1ECA261600FB0FB7 /* LXOpExponent.m */,
+				1D2542D01ECA261600FB0FB7 /* LXOpExponentAssign.m */,
+				1D2542D11ECA261600FB0FB7 /* LXOpGreaterThan.m */,
+				1D2542D21ECA261600FB0FB7 /* LXOpGreaterThanEqual.m */,
+				1D2542D31ECA261600FB0FB7 /* LXOpIdentical.m */,
+				1D2542D41ECA261600FB0FB7 /* LXOpLessThan.m */,
+				1D2542D51ECA261600FB0FB7 /* LXOpLessThanEqual.m */,
+				1D2542D61ECA261600FB0FB7 /* LXOpModulus.m */,
+				1D2542D71ECA261600FB0FB7 /* LXOpModulusAssign.m */,
+				1D2542D81ECA261600FB0FB7 /* LXOpMultiplication.m */,
+				1D2542D91ECA261600FB0FB7 /* LXOpMultiplicationAssign.m */,
+				1D2542DA1ECA261600FB0FB7 /* LXOpNegate.m */,
+				1D2542DB1ECA261600FB0FB7 /* LXOpNot.m */,
+				1D2542DC1ECA261600FB0FB7 /* LXOpNotEqual.m */,
+				1D2542DD1ECA261600FB0FB7 /* LXOpNotIdentical.m */,
+				1D2542DE1ECA261600FB0FB7 /* LXOpOr.m */,
+				1D2542E01ECA261600FB0FB7 /* LXOpPostDecrement.m */,
+				1D2542E11ECA261600FB0FB7 /* LXOpPostIncrement.m */,
+				1D2542E21ECA261600FB0FB7 /* LXOpPreDecrement.m */,
+				1D2542E31ECA261600FB0FB7 /* LXOpPreIncrement.m */,
+				1D2542E41ECA261600FB0FB7 /* LXOpRange.m */,
+				1D2542E51ECA261600FB0FB7 /* LXOps.h */,
+				1D2542E61ECA261600FB0FB7 /* LXOpSeries.m */,
+				1D2542E71ECA261600FB0FB7 /* LXOpShiftLeft.m */,
+				1D2542E81ECA261600FB0FB7 /* LXOpShiftRight.m */,
+				1D2542E91ECA261600FB0FB7 /* LXOpSubtraction.m */,
+				1D2542EA1ECA261600FB0FB7 /* LXOpSubtractionAssign.m */,
+				1D2542EB1ECA261600FB0FB7 /* LXOpVariable.m */,
+				1D2542EC1ECA261600FB0FB7 /* LXPairValue.h */,
+				1D2542ED1ECA261600FB0FB7 /* LXPairValue.m */,
+				1D2542EE1ECA261600FB0FB7 /* LXParentheses.h */,
+				1D2542EF1ECA261600FB0FB7 /* LXParentheses.m */,
+				1D2542F01ECA261600FB0FB7 /* LXPlaceholder.h */,
+				1D2542F11ECA261600FB0FB7 /* LXPlaceholder.m */,
+				1D2542F21ECA261600FB0FB7 /* LXRuntimeInfo.h */,
+				1D2542F31ECA261600FB0FB7 /* LXRuntimeInfo.m */,
+				1D2542F41ECA261600FB0FB7 /* LXScanner.h */,
+				1D2542F51ECA261600FB0FB7 /* LXScanner.m */,
+				1D2542F61ECA261600FB0FB7 /* LXStringScanner.h */,
+				1D2542F71ECA261600FB0FB7 /* LXStringScanner.m */,
+				1D2542F81ECA261600FB0FB7 /* LXStringValue.h */,
+				1D2542F91ECA261600FB0FB7 /* LXStringValue.m */,
+				1D2542FA1ECA261600FB0FB7 /* LXValue.h */,
+				1D2542FB1ECA261600FB0FB7 /* LXValue.m */,
+				1D2542FC1ECA261600FB0FB7 /* LXVariable_Initialize.m */,
+				1D2542FD1ECA261600FB0FB7 /* LXVariable.h */,
+				1D2542FE1ECA261600FB0FB7 /* LXVariable.m */,
+				1D2542FF1ECA261600FB0FB7 /* LXVariableNameScanner.h */,
+				1D2543001ECA261600FB0FB7 /* LXVariableNameScanner.m */,
+				1D2543011ECA261600FB0FB7 /* LXVectorValue.h */,
+				1D2543021ECA261600FB0FB7 /* LXVectorValue.m */,
+				1D25429C1ECA25F800FB0FB7 /* main.m */,
+				1D2543481ECA2DB100FB0FB7 /* Info.plist */,
+			);
+			path = LX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D2542981ECA25F800FB0FB7 /* LX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D2542A01ECA25F800FB0FB7 /* Build configuration list for PBXNativeTarget "LX" */;
+			buildPhases = (
+				1D2542951ECA25F800FB0FB7 /* Sources */,
+				1D2542961ECA25F800FB0FB7 /* Frameworks */,
+				1D2542971ECA25F800FB0FB7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LX;
+			productName = LX;
+			productReference = 1D2542991ECA25F800FB0FB7 /* LX */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D2542911ECA25F800FB0FB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = colinta;
+				TargetAttributes = {
+					1D2542981ECA25F800FB0FB7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5QDS9Z456R;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1D2542941ECA25F800FB0FB7 /* Build configuration list for PBXProject "LX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D2542901ECA25F800FB0FB7;
+			productRefGroup = 1D25429A1ECA25F800FB0FB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D2542981ECA25F800FB0FB7 /* LX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D2542951ECA25F800FB0FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D2543321ECA261600FB0FB7 /* LXOpPostIncrement.m in Sources */,
+				1D2543291ECA261600FB0FB7 /* LXOpMultiplication.m in Sources */,
+				1D2543041ECA261600FB0FB7 /* LXCodeBlockScanner.m in Sources */,
+				1D2543341ECA261600FB0FB7 /* LXOpPreIncrement.m in Sources */,
+				1D2543381ECA261600FB0FB7 /* LXOpShiftRight.m in Sources */,
+				1D2543231ECA261600FB0FB7 /* LXOpGreaterThanEqual.m in Sources */,
+				1D25432E1ECA261600FB0FB7 /* LXOpNotIdentical.m in Sources */,
+				1D25433A1ECA261600FB0FB7 /* LXOpSubtractionAssign.m in Sources */,
+				1D2543241ECA261600FB0FB7 /* LXOpIdentical.m in Sources */,
+				1D2543191ECA261600FB0FB7 /* LXOpDivision.m in Sources */,
+				1D25433F1ECA261600FB0FB7 /* LXRuntimeInfo.m in Sources */,
+				1D2543271ECA261600FB0FB7 /* LXOpModulus.m in Sources */,
+				1D2543221ECA261600FB0FB7 /* LXOpGreaterThan.m in Sources */,
+				1D25430A1ECA261600FB0FB7 /* LXFormulaScanner.m in Sources */,
+				1D25431A1ECA261600FB0FB7 /* LXOpDivisionAssign.m in Sources */,
+				1D25431C1ECA261600FB0FB7 /* LXOpEither.m in Sources */,
+				1D2543421ECA261600FB0FB7 /* LXStringValue.m in Sources */,
+				1D2543171ECA261600FB0FB7 /* LXOpBitwiseXor.m in Sources */,
+				1D2543411ECA261600FB0FB7 /* LXStringScanner.m in Sources */,
+				1D25433D1ECA261600FB0FB7 /* LXParentheses.m in Sources */,
+				1D25433B1ECA261600FB0FB7 /* LXOpVariable.m in Sources */,
+				1D2543451ECA261600FB0FB7 /* LXVariable.m in Sources */,
+				1D2543371ECA261600FB0FB7 /* LXOpShiftLeft.m in Sources */,
+				1D2543161ECA261600FB0FB7 /* LXOpBitwiseOr.m in Sources */,
+				1D2543331ECA261600FB0FB7 /* LXOpPreDecrement.m in Sources */,
+				1D25430C1ECA261600FB0FB7 /* LXFunctionExtensions.m in Sources */,
+				1D2543211ECA261600FB0FB7 /* LXOpExponentAssign.m in Sources */,
+				1D2543031ECA261600FB0FB7 /* LXCodeBlock.m in Sources */,
+				1D2543121ECA261600FB0FB7 /* LXOpArguments.m in Sources */,
+				1D2543201ECA261600FB0FB7 /* LXOpExponent.m in Sources */,
+				1D2543131ECA261600FB0FB7 /* LXOpAssign.m in Sources */,
+				1D25431B1ECA261600FB0FB7 /* LXOpDot.m in Sources */,
+				1D25433E1ECA261600FB0FB7 /* LXPlaceholder.m in Sources */,
+				1D2543151ECA261600FB0FB7 /* LXOpBitwiseNot.m in Sources */,
+				1D2543061ECA261600FB0FB7 /* LXDataValue.m in Sources */,
+				1D2543101ECA261600FB0FB7 /* LXOpAdditionAssign.m in Sources */,
+				1D25430E1ECA261600FB0FB7 /* LXNumberValue.m in Sources */,
+				1D2543391ECA261600FB0FB7 /* LXOpSubtraction.m in Sources */,
+				1D25431E1ECA261600FB0FB7 /* LXOperator.m in Sources */,
+				1D2543261ECA261600FB0FB7 /* LXOpLessThanEqual.m in Sources */,
+				1D2543441ECA261600FB0FB7 /* LXVariable_Initialize.m in Sources */,
+				1D2543091ECA261600FB0FB7 /* LXFnPrint.m in Sources */,
+				1D2543361ECA261600FB0FB7 /* LXOpSeries.m in Sources */,
+				1D2543351ECA261600FB0FB7 /* LXOpRange.m in Sources */,
+				1D25431D1ECA261600FB0FB7 /* LXOpEqual.m in Sources */,
+				1D2543431ECA261600FB0FB7 /* LXValue.m in Sources */,
+				1D2543311ECA261600FB0FB7 /* LXOpPostDecrement.m in Sources */,
+				1D25431F1ECA261600FB0FB7 /* LXOperatorScanner.m in Sources */,
+				1D2543141ECA261600FB0FB7 /* LXOpBitwiseAnd.m in Sources */,
+				1D25432C1ECA261600FB0FB7 /* LXOpNot.m in Sources */,
+				1D2543471ECA261600FB0FB7 /* LXVectorValue.m in Sources */,
+				1D2543181ECA261600FB0FB7 /* LXOpConditional.m in Sources */,
+				1D25429D1ECA25F800FB0FB7 /* main.m in Sources */,
+				1D2543111ECA261600FB0FB7 /* LXOpAnd.m in Sources */,
+				1D25432A1ECA261600FB0FB7 /* LXOpMultiplicationAssign.m in Sources */,
+				1D2543461ECA261600FB0FB7 /* LXVariableNameScanner.m in Sources */,
+				1D2543251ECA261600FB0FB7 /* LXOpLessThan.m in Sources */,
+				1D2543081ECA261600FB0FB7 /* LXError.m in Sources */,
+				1D25430F1ECA261600FB0FB7 /* LXOpAddition.m in Sources */,
+				1D2543051ECA261600FB0FB7 /* LXCommand.m in Sources */,
+				1D25432B1ECA261600FB0FB7 /* LXOpNegate.m in Sources */,
+				1D25433C1ECA261600FB0FB7 /* LXPairValue.m in Sources */,
+				1D25430B1ECA261600FB0FB7 /* LXFunction.m in Sources */,
+				1D25432D1ECA261600FB0FB7 /* LXOpNotEqual.m in Sources */,
+				1D25430D1ECA261600FB0FB7 /* LXNumberScanner.m in Sources */,
+				1D2543281ECA261600FB0FB7 /* LXOpModulusAssign.m in Sources */,
+				1D25432F1ECA261600FB0FB7 /* LXOpOr.m in Sources */,
+				1D2543401ECA261600FB0FB7 /* LXScanner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D25429E1ECA25F800FB0FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1D25429F1ECA25F800FB0FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1D2542A11ECA25F800FB0FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5QDS9Z456R;
+				INFOPLIST_FILE = "$(SRCROOT)/LX/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D2542A21ECA25F800FB0FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5QDS9Z456R;
+				INFOPLIST_FILE = "$(SRCROOT)/LX/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D2542941ECA25F800FB0FB7 /* Build configuration list for PBXProject "LX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D25429E1ECA25F800FB0FB7 /* Debug */,
+				1D25429F1ECA25F800FB0FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D2542A01ECA25F800FB0FB7 /* Build configuration list for PBXNativeTarget "LX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D2542A11ECA25F800FB0FB7 /* Debug */,
+				1D2542A21ECA25F800FB0FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D2542911ECA25F800FB0FB7 /* Project object */;
+}
