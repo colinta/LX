@@ -7,7 +7,7 @@
 //
 
 #import "LXOps.h"
-
+#import "LXPairValue.h"
 
 @implementation LXOpAssign
 
@@ -35,7 +35,7 @@
         r = [performOp value:l value:r];
     }
 
-    [l setValue:r];
+    [(LXPairValue*)l setValue:r];
 
     return r;
 }

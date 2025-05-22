@@ -11,7 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-    NSString *command = [LXCommand runProgram:@"a = 2\nb=4\na * b\n"];
+    NSString *command = [LXCommand runProgram:@"a = [2, 1, -3]\nb=[4, 1, 2]\na * b\n"];
     NSLog(@"%@", command);
     return 0;
 }

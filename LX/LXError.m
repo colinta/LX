@@ -28,7 +28,7 @@
 
 - (NSString*) displayString:(NSString*)tabs
 {
-    return errorDescription;
+    return self.description;
 }
 
 - (NSString*) description
